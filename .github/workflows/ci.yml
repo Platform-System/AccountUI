@@ -82,6 +82,6 @@ jobs:
     needs: verify
     uses: Platform-System/CI-CD/.github/workflows/build-vite.yml@main
     with:
-      image_name: 'platform-account-ui'
+      image_name: 'account-ui'
       push_image: true
     secrets: inherit
