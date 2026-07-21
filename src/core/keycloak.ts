@@ -1,9 +1,9 @@
-import { configurePlatformApi, getKeycloak, getValidToken as getValidTokenShared } from '@platform-system/api-client';
+import { configureApiClient, getKeycloak, getValidToken as getValidTokenShared } from '@system/api-client';
 import { getEnv } from '@/shared/config/env';
 
 const accountAppUrl = getEnv('VITE_PUBLIC_ACCOUNT_URL');
 
-configurePlatformApi({
+configureApiClient({
   baseURL: getEnv('VITE_API_URL'),
   keycloak: {
     url: getEnv('VITE_KEYCLOAK_URL'),

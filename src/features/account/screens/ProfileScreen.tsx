@@ -12,7 +12,7 @@ import {
   SelectValue,
   Textarea,
   cn
-} from '@platform-system/design-ui';
+} from '@system/design-ui';
 import { Settings } from "lucide-react";
 import { useAccount } from "../hooks/use-account";
 import { useTranslations } from "../translations/vi";

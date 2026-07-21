@@ -15,7 +15,7 @@ export default defineConfig({
     }
   },
   optimizeDeps: {
-    exclude: ['@platform-system/design-ui'],
+    exclude: ['@system/design-ui'],
   },
   server: {
     port: 5175,

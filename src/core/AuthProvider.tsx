@@ -1,5 +1,5 @@
 import React from 'react';
-import { Spinner } from '@platform-system/design-ui';
+import { Spinner } from '@system/design-ui';
 import { keycloak } from './keycloak';
 import { AuthContext, type AuthUser } from './auth-context';
 import { getEnv } from '@/shared/config/env';

@@ -6,7 +6,7 @@ import {
   TabsList,
   TabsTrigger,
   TabsContent
-} from '@platform-system/design-ui';
+} from '@system/design-ui';
 import { User } from "lucide-react";
 import { useAccount } from "../hooks/use-account";
 import { useTranslations } from "../translations/vi";

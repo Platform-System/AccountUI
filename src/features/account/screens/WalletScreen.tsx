@@ -8,7 +8,7 @@ import {
   EmptyMedia, 
   EmptyTitle, 
   EmptyDescription 
-} from '@platform-system/design-ui';
+} from '@system/design-ui';
 import { useAccount } from "../hooks/use-account";
 import { useTranslations } from "../translations/vi";
 import { toast } from "sonner";

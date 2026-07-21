@@ -7,7 +7,7 @@ import { ProfileScreen } from './features/account/screens/ProfileScreen';
 import { WalletScreen } from './features/account/screens/WalletScreen';
 import { SecurityScreen } from './features/account/screens/SecurityScreen';
 import { MediaScreen } from './features/account/screens/MediaScreen';
-import { ThemeProvider } from '@platform-system/design-ui';
+import { ThemeProvider } from '@system/design-ui';
 import { RootErrorBoundary } from './core/RootErrorBoundary';
 
 const queryClient = new QueryClient({

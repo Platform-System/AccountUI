@@ -14,7 +14,7 @@ import {
   UserProfileCard,
   HeaderLayout,
   UserProfileDropdown
-} from '@platform-system/design-ui';
+} from '@system/design-ui';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
 import {
   Menu,

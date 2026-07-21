@@ -1,4 +1,4 @@
-import { Button, cn } from '@platform-system/design-ui';
+import { Button, cn } from '@system/design-ui';
 import { useTranslations } from "../translations/vi";
 import { useAuth } from "@/core/auth-context";
 import { getEnv } from '@/shared/config/env';
